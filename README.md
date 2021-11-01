@@ -5,6 +5,8 @@ Permite salvar o video em duas formas de qualidade e extrair somente o mp3 de ta
 
 Feito com python e as libs pytube, pysimplegui e os.
 
+<hr>
+
 ## Como usar🤔?
 
 Baixe o arquivo entre no seu terminal e digite :
@@ -18,3 +20,7 @@ Caso esteja em ambiente linux:
     pip3 install pytube
     pip3 install pysimplegui
     pip3 install os
+
+Depois é só rodar o codigo.
+
+Obs: se estiver usando Vscode recomendo a extensão code runner.
