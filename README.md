@@ -1,9 +1,9 @@
 # Youtube-Downloader
-Um Downloader de videos do youtube feito em python.
+Um Downloader de videos do youtube feito em python.🥴
 
-Permite salvar o video em duas formas de qualidade e extrair somente o mp3 de tal.
+Permite salvar o video em três formas de qualidade e extrair somente o mp3 de tal.🙃
 
-Feito com python e as libs pytube, pysimplegui e os.
+Feito com python e as libs pytube, pysimplegui, moviepy e os.
 
 <hr>
 
