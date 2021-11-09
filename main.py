@@ -25,7 +25,7 @@ def escolha_qualidade(): #Printa para o usuário uma janela para escolher a qual
 
     if event_quality == 'video_high':
         response = 'high'
-    
+        
     if event_quality == 'video_medium':
         response = 'medium'
 
@@ -41,11 +41,9 @@ def audio_high(link_video, folder, title_video): #Caso o usuário escolha a maio
     cria_clip(folder, title_video)
 
 def baixa_video(): #Opções de video para baixar
-    
     folder = sg.popup_get_folder("Escolha a pasta para salvar")
 
     link_video = YouTube(values['url'])
-
     quality_video = escolha_qualidade()
         
     if quality_video == 'low':
@@ -65,7 +63,6 @@ def baixa_video(): #Opções de video para baixar
         audio_high(link_video, folder, title_video)
 
 def baixa_audio(): #Opção audio para baixar
-
     folder = sg.popup_get_folder("Escolha a pasta para salvar")
 
     link_video = YouTube(values['url'])
