@@ -34,7 +34,7 @@ def escolha_qualidade(): #Printa para o usuário uma janela para escolher a qual
 
     return response
 
-def audio_high(link_video, folder, title_video): #Caso o usuário escolha a maior qualidade, o audio é baixado separadamente a fim de ser juntado em um clip
+def pega_audio(link_video, folder, title_video): #Caso o usuário escolha a maior qualidade, o audio é baixado separadamente a fim de ser juntado em um clip
     audio_high = link_video.streams.get_audio_only()
     audio_high.download(folder, filename='Audio.mp3')
             
@@ -62,7 +62,7 @@ def baixa_video(values): #Opções de video para baixar
     video.download(folder, filename=title_video + '.mp4')
 
     if quality_video == 'high':
-        audio_high(link_video, folder, title_video)
+        pega_audio(link_video, folder, title_video)
 
 def baixa_audio(values): #Opção audio para baixar
 
